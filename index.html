@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan Sajid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+    <header class="site-header">
+        <h1>Farhan Sajid</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article id="about" class="card">
+            <h2>About Me</h2>
+            <figure>
+                <img src="https://t3.ftcdn.net/jpg/15/09/19/02/360_F_1509190284_V6Z6ch1u0SM3kSy35ST06IJ5ob1jc2YH.jpg" alt="Photo of Farhan Sajid" width="180">
+                <figcaption>My Name is Farhan Sajid, I am a student of Computer Science in QU Lahore!</figcaption>
+            </figure>
+        </article>
+
+        <section id="skills" class="tags">
+            <h2>Skills I'm Building This Semester</h2>
+            <ul>
+                <li>HTML5 &amp; semantic markup</li>
+                <li>CSS3 layout (Flexbox &amp; Grid)</li>
+                <li>Git &amp; GitHub collaboration</li>
+            </ul>
+        </section>
+
+        <section id="timeline">
+            <h2>My Timeline So Far</h2>
+            <ol>
+                <li>Completed Lab 1: set up my environment and pushed to GitHub</li>
+                <li>Built my first static webpage</li>
+                <li>Started this semantic HTML5 profile page</li>
+            </ol>
+        </section>
+
+        <aside class="card fun-fact">
+            <h2>Fun Fact</h2>
+            <p>I love to play video games in my free time.</p>
+        </aside>
+
+        <section id="media">
+            <h2>A Short Clip</h2>
+            <!-- Note: YouTube videos must use an iframe to embed properly -->
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/Pd1yGW_g2T8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="contact">
+                       <h2>Contact Me</h2>
+  <form id="contact-form">
+    <fieldset>
+      <legend>Send me a message</legend>
+      <!-- fields go here -->
+      <button type="submit">Send</button>
+    </fieldset>
+  </form>
+  <label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+ 
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="topic">Topic</label>
+<select id="topic" name="topic">
+  <option value="general">General</option>
+  <option value="feedback">Feedback</option>
+  <option value="bug">Report a Bug</option>
+</select>
+p>Preferred reply method:</p>
+<label><input type="radio" name="reply" value="email" checked> Email</label>
+<label><input type="radio" name="reply" value="phone"> Phone</label>
+<label><input type="checkbox" id="subscribe" name="subscribe"> Subscribe to updates</label>
+<label for="callback-date">Preferred callback date</label>
+<input type="date" id="callback-date" name="callback-date">
+<label for="urgency">Urgency (1 = whenever, 10 = right now)</label>
+<input type="range" id="urgency" name="urgency" min="1" max="10" value="5">
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4" required minlength="10"></textarea>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Farhan Sajid</p>
+        <p>Built for CIT331</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</body>
+</html>
